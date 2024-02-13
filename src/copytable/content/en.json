@@ -1,0 +1,247 @@
+{
+    "key": "en",
+    "home": {
+        "hero": {
+            "title": "Empowering Innovation: 20million Engineering Services",
+            "subtitle": "At 20million, we are more than just a software engineering company—we are your partners in innovation and technology excellence. With a relentless pursuit of excellence, we deliver top-tier engineering services that empower your business to thrive in the digital age."
+        },
+        "expertise": {
+            "1": {
+                "title": "Product Development",
+                "subtitle": "From ideation to launch, we specialize in crafting cutting-edge software products that redefine industries and captivate users."
+            },
+            "2": {
+                "title": "Infrastructure Management",
+                "subtitle": "Our robust infrastructure management services ensure your systems are secure, scalable, and optimized for peak performance."
+            },
+            "3": {
+                "title": "Application Support",
+                "subtitle": "With our application support services, we provide the critical support needed to keep your applications running smoothly, 24/7."
+            },
+            "title": "Our Expertise"
+        },
+        "whyChooseUs": {
+            "1": {
+                "title": "Innovative Solutions",
+                "subtitle": "We are at the forefront of technology, leveraging the latest tools and methodologies to drive innovation in every project."
+            },
+            "2": {
+                "title": "Experienced Team",
+                "subtitle": "Our team comprises seasoned professionals with a wealth of experience in software engineering and a track record of successful projects."
+            },
+            "3": {
+                "title": "Customer-Centric Approach",
+                "subtitle": "We prioritize understanding your unique needs and goals, ensuring that our solutions align perfectly with your vision."
+            },
+            "4": {
+                "title": "Reliability",
+                "subtitle": "Count on us for reliable, scalable, and secure solutions that meet the demands of today's digital landscape."
+            },
+            "title": "Why Choose 20million?"
+        },
+        "partnerWithUs": {
+            "title": "Partner with 20million",
+            "subtitle": "When you choose 20million as your engineering partner, you gain a dedicated team committed to your success. Whether you need to develop a groundbreaking product, optimize your infrastructure, or ensure the seamless operation of your applications, we have the expertise and passion to make it happen."
+        },
+        "letsBuild": {
+            "title": "Let's Build the Future Together",
+            "subtitle": "Ready to take your software engineering initiatives to the next level? Contact 20million today to discuss how our engineering services can propel your business forward."
+        }
+    },
+    "captive": {
+        "main": {
+            "title": "Captive Subsidiary Establishment",
+            "subtitle": "Establishing a captive subsidiary can be a strategic move for companies looking to gain control, mitigate risks, and maximize profits. Our expert team specializes in setting up and managing captive subsidiaries, offering you a path to greater independence and success. Unlock Growth Potential with Our Captive Subsidiary Establishment Services!"
+        },
+        "expertise": {
+            "title": "Expertise",
+            "subtitle": "With years of experience in global business expansion, our team brings a wealth of expertise to the table when it comes to establishing captive subsidiaries. We have successfully navigated the complexities of setting up captive entities across various industries and regions. Our team possesses in-depth knowledge of local regulations, market dynamics, and industry best practices, allowing us to tailor our captive subsidiary establishment services to meet your specific needs."
+        },
+        "model": {
+            "title": "Model",
+            "subtitle": "Our Build, Operate, Transfer (BOT) model offers a unique approach to project development, allowing you to build a customized solution, operate it efficiently, and seamlessly transfer it when the time is right. From initial planning and regulatory compliance to operational setup and management, our comprehensive support covers every aspect of captive subsidiary establishment, ensuring a smooth and efficient process."
+        },
+        "leadership": {
+            "title": "Leadership",
+            "subtitle": "As a leader in captive subsidiary establishment, we are known for pioneering solutions that address the evolving needs of modern businesses. Our forward-thinking strategies and proactive approach ensure that our clients stay ahead in an ever-changing global landscape. Our global reach and network of experts enable us to provide comprehensive support for captive subsidiary establishment across diverse markets and industries. Whether you're looking to expand into emerging markets or established economies, we have the expertise to guide you."
+        }
+    },
+    "appSupport": {
+        "main": {
+            "title": "Comprehensive Application Support Services",
+            "subtitle": "At 20million, our application support services are designed to ensure the continuous and reliable operation of your critical applications. We understand the importance of seamless application performance in today's digital landscape, which is why we offer comprehensive support tailored to your specific needs."
+        },
+        "keyFeatures": {
+            "title": "Key Features of Our Application Support Services",
+            "feature": {
+                "1": {
+                    "title": "24/7 Monitoring",
+                    "description": "Our dedicated team provides round-the-clock monitoring of your applications, ensuring that any issues are promptly identified and addressed, minimizing downtime and disruptions to your business operations."
+                },
+                "2": {
+                    "title": "Incident Management",
+                    "description": "In the event of an incident or technical issue, our support team is ready to respond swiftly, following established incident management protocols to resolve issues efficiently and effectively."
+                },
+                "3": {
+                    "title": "Performance Optimization",
+                    "description": "We proactively monitor and optimize the performance of your applications, identifying areas for improvement and implementing enhancements to ensure optimal performance and user experience."
+                },
+                "4": {
+                    "title": "Security Management",
+                    "description": "Application security is a top priority. We implement robust security measures, such as regular security audits, patch management, and vulnerability assessments, to protect your applications from cyber threats."
+                },
+                "5": {
+                    "title": "Scalability and Flexibility",
+                    "description": "As your business grows, we ensure that your applications can scale to meet increasing demands. Our support services include capacity planning and scalability assessments to ensure that your applications remain agile and responsive to changes in workload."
+                }
+            }
+        },
+        "benefits": {
+            "title": "Benefits of Partnering with Us for Application Support",
+            "benefit": {
+                "1": {
+                    "title": "Peace of Mind",
+                    "description": "With our application support services, you can have peace of mind knowing that your applications are in capable hands. Our proactive approach minimizes the risk of downtime and ensures reliable application performance."
+                },
+                "2": {
+                    "title": "Focus on Core Business",
+                    "description": "By outsourcing application support to us, you can free up your internal resources to focus on core business activities, knowing that the technical aspects of application management are being handled expertly."
+                },
+                "3": {
+                    "title": "Continuous Improvement",
+                    "description": "We are committed to continuous improvement. Our support services include regular reviews and feedback sessions to identify areas for enhancement and ensure that your applications evolve to meet changing business needs."
+                }
+            }
+        },
+        "conclusion": "At 20million, our application support services are designed to provide you with the critical support needed to keep your applications running smoothly, 24/7. Whether you need ongoing maintenance, troubleshooting, or performance optimization, our team is dedicated to ensuring the reliability and performance of your applications, allowing you to focus on driving business growth."
+    },
+    "itops": {
+        "main": {
+            "title": "IT Operations Support",
+            "subtitle": "Our IT Operations Support services are designed to provide comprehensive assistance for your business's IT needs. Whether it's troubleshooting technical issues, maintaining system stability, or ensuring optimal performance, our team is equipped to handle it all."
+        },
+        "remote": {
+            "title": "Remote Support",
+            "subtitle": "With our remote support capabilities, you can access IT assistance regardless of your location. This means quick response times, efficient issue resolution, and minimal disruption to your operations, all without the need for on-site visits."
+        },
+        "inclusive": {
+            "title": "Inclusive of 8/5 to 24/7 remote IT Operations Support.",
+            "subtitle": "We offer flexible support options to suit your business's needs, ranging from standard 8/5 coverage to round-the-clock 24/7 support. This ensures that you have access to the assistance you need, precisely when you need it."
+        },
+        "costEffective": {
+            "title": "Cost-Effective Solutions",
+            "subtitle": "Our remote support capabilities, backed by our offshore presence in India, enable us to deliver cost-effective IT solutions while maintaining high standards of operational efficiency. This unique combination allows us to offer top-notch services at a competitive price point."
+        }
+    },
+    "productDev": {
+        "main": {
+            "title": "Product Development Expertise",
+            "subtitle": "At 20million, our product development process is a comprehensive journey that begins with the initial spark of an idea and culminates in the launch of a groundbreaking software product. We thrive on turning concepts into reality, leveraging our expertise in software engineering, design thinking, and industry knowledge to bring innovative products to life."
+        },
+        "prelaunch": {
+            "title": "From Ideation to Launch",
+            "step": {
+                "1": {
+                    "title": "Ideation",
+                    "description": "We start by collaborating closely with our clients to understand their vision, goals, and target audience. Through brainstorming sessions and in-depth analysis, we refine ideas into well-defined concepts that form the foundation of the product."
+                },
+                "2": {
+                    "title": "Conceptualization",
+                    "description": "Once the concept is established, our team of experts works meticulously to conceptualize the product, creating detailed plans that outline the features, user experience, and technical requirements."
+                },
+                "3": {
+                    "title": "Development",
+                    "description": "With the blueprint in place, our engineers begin the development phase, leveraging cutting-edge technologies and agile methodologies to build the product iteratively. Our development process is transparent, collaborative, and focused on delivering high-quality results."
+                },
+                "4": {
+                    "title": "Testing and Refinement",
+                    "description": "Rigorous testing is an integral part of our product development process. We conduct thorough testing to ensure that the product meets the highest standards of quality, reliability, and security. Feedback from testing is used to refine and enhance the product further."
+                }
+            }
+        },
+        "postlaunch": {
+            "title": "Launch and Beyond",
+            "description": "The culmination of our product development journey is the launch phase. We ensure a smooth and successful launch, providing support and guidance as our clients introduce their product to the market. Our relationship extends beyond the launch, as we continue to support and optimize the product based on user feedback and market trends.",
+            "subtitle": "Redefining Industries and Captivating Users",
+            "step": {
+                "1": {
+                    "title": "Industry Impact",
+                    "description": "Our focus on innovation and user-centric design allows us to create products that have a transformative impact on industries. We aim to redefine traditional approaches, introducing solutions that set new standards and drive industry advancements."
+                },
+                "2": {
+                    "title": "User Engagement",
+                    "description": "Central to our product development philosophy is the goal of captivating users. We design products with a keen understanding of user needs and behaviors, ensuring that the user experience is intuitive, engaging, and memorable. By prioritizing user satisfaction, we create products that resonate and foster long-term user loyalty."
+                }
+            }
+        },
+        "conclusion": "At 20million, our product development expertise goes beyond simply building software products—we craft experiences that inspire, empower, and drive success. From the initial idea to the final launch, we are committed to delivering cutting-edge products that redefine industries and captivate users, setting new benchmarks for innovation and excellence."
+    },
+    "qaservice": {
+        "main": {
+            "title": "QA Service",
+            "subtitle": "Our QA services are designed to ensure the quality and reliability of your software products. From initial testing to ongoing quality assurance, we provide comprehensive QA solutions tailored to your specific needs."
+        },
+        "expertise": {
+            "title": "Testing Expertise",
+            "subtitle": "With our deep testing expertise, we offer a range of testing services, including functional testing, regression testing, and more. Our testing specialists have the knowledge and experience to identify and address potential issues before they impact your users. Manual and automated testing, including left shift QA to identify gaps early."
+        },
+        "securityPerformance": {
+            "title": "Security and Performance",
+            "subtitle": "Security and performance are critical aspects of any software product. Our services include thorough security testing to identify vulnerabilities and performance testing to ensure your application meets the demands of your users."
+        },
+        "risk": {
+            "title": "Risk Mitigation",
+            "subtitle": "We understand the importance of mitigating risks in software development. Our team works closely with you to identify potential risks and develop strategies to mitigate them, ensuring the success of your project."
+        },
+        "planning": {
+            "title": "Strategic Planning",
+            "subtitle": "Strategic planning is key to the success of any QA effort. We help you develop a comprehensive testing strategy aligned with your business goals, ensuring that your QA efforts are targeted and effective."
+        }
+    },
+    "infraManagement": {
+        "main": {
+            "title": "Effective Infrastructure Management for Your Business",
+            "subtitle": "At 20million, we recognize the pivotal role that infrastructure plays in the success of your business operations. Our infrastructure management services are designed to provide you with a secure, scalable, and optimized foundation for your digital environment."
+        },
+        "security": {
+            "title": "Security and Compliance",
+            "point": {
+                "1": {
+                    "title": "Data Protection",
+                    "description": "Ensuring the security of your data is our top priority. We implement robust security measures to safeguard your data against threats and vulnerabilities, ensuring compliance with industry standards and regulations."
+                },
+                "2": {
+                    "title": "Regulatory Compliance",
+                    "description": "Our infrastructure management services are tailored to help you adhere to relevant regulatory requirements, ensuring that your infrastructure meets the necessary compliance standards."
+                }
+            }
+        },
+        "scalability": {
+            "title": "Scalability and Flexibility",
+            "point": {
+                "1": {
+                    "title": "Adaptability",
+                    "description": "We design your infrastructure to be adaptable and scalable, capable of accommodating changes in demand without compromising performance. This adaptability allows your systems to scale up or down as needed, ensuring optimal resource utilization."
+                },
+                "2": {
+                    "title": "Reliability",
+                    "description": "Our infrastructure solutions are built for reliability, minimizing downtime and ensuring continuous availability of your services. We prioritize fault tolerance and redundancy to enhance the reliability of your infrastructure."
+                }
+            }
+        },
+        "performance": {
+            "title": "Performance Optimization",
+            "point": {
+                "1": {
+                    "title": "Efficient Resource Management",
+                    "description": "We continuously monitor and optimize your infrastructure to maximize resource efficiency. By analyzing performance metrics and identifying areas for improvement, we ensure that your infrastructure operates at peak performance levels."
+                },
+                "2": {
+                    "title": "Cost Management",
+                    "description": "Our focus on cost-effectiveness helps you optimize your infrastructure costs. We analyze your infrastructure to identify cost-saving opportunities and implement strategies to maximize the value of your investment."
+                }
+            }
+        },
+        "conclusion": "At 20million, our infrastructure management services are designed to empower your business with a resilient and efficient infrastructure. By partnering with us, you can be confident that your infrastructure is in capable hands, allowing you to focus on driving innovation and growth."
+    }
+}

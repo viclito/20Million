@@ -1,0 +1,50 @@
+.scalability {
+    .inner {
+        max-width: 1200px;
+        margin: auto;
+        padding: 80px 20px;
+        .title {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .divide {
+            padding-top: 30px;
+            display: flex;
+
+            .left,
+            .right {
+                width: 50%;
+                padding: 20px;
+
+                .title {
+                    text-align: start;
+                    padding: 10px 20px;
+                    width: 100%;
+                    background-color: var(--primary-color);
+                    color: white;
+                    font-size: 16px;
+                }
+                .para {
+                    font-size: 15px;
+                    padding: 10px 20px;
+                    line-height: 1.8;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 730px) {
+    .scalability {
+        .inner {
+            .divide {
+                flex-direction: column;
+                .right,
+                .left {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

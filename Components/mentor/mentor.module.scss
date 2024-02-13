@@ -1,0 +1,249 @@
+.mentors {
+    .inner {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+
+        .topics {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 50px 20px;
+            gap: 20px;
+
+            h2 {
+                text-align: center;
+                margin: 0 0 15px;
+                line-height: 24px;
+                font-weight: 900;
+                text-transform: uppercase;
+            }
+            h3 {
+                text-align: center;
+                font-size: 22px;
+                font-weight: 700;
+                color: var(--primary-color);
+            }
+            h4 {
+                text-align: center;
+                font-size: 22px;
+                font-weight: 700;
+            }
+        }
+
+        .divide {
+            padding: 30px 0;
+            display: flex;
+            align-items: center;
+            .left {
+                width: 50%;
+                .learnings {
+                    display: flex;
+                    flex-direction: column;
+                    margin: auto;
+                    gap: 20px;
+                    width: 90%;
+                    p {
+                        font-size: 14px;
+                        line-height: 2;
+                    }
+                }
+            }
+            .right {
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .image{
+                    img{
+                        height: 400px;
+                        width: 300px;
+                        border-radius: 15px;
+                        filter: grayscale(20);
+                    }
+                }
+
+                .rightinner {
+                    max-width: 600px;
+                    margin: auto;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                    .card {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 140px;
+                        width: 120px;
+                        .shape {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 100%;
+                            height: 100%;
+                            clip-path: polygon(
+                                50% 0%,
+                                100% 25%,
+                                100% 75%,
+                                50% 100%,
+                                0% 75%,
+                                0% 25%
+                            );
+                            background-color: rgb(229, 228, 228);
+                            opacity: 0.9;
+                            overflow: hidden;
+                            .img {
+                                position: relative;
+                                width: 120px;
+                                height: 140px;
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                    filter: grayscale(20);
+                                }
+                            }
+                            p {
+                                text-align: center;
+                                font-size: 12px;
+                                position: absolute;
+                            }
+                            .person1,
+                            .person2,
+                            .person3,
+                            .person4,
+                            .person5,
+                            .person6,
+                            .person7,
+                            .person8 {
+                                // display: none;
+                                scale: 0.3;
+                                opacity: 0;
+                                transition: 0.5s;
+                            }
+                            .person1.active,
+                            .person2.active,
+                            .person3.active,
+                            .person4.active,
+                            .person5.active,
+                            .person6.active,
+                            .person7.active,
+                            .person8.active {
+                                display: block;
+                                opacity: 1;
+                                scale: 1;
+                            }
+                        }
+                    }
+                }
+                .rightinner > *:nth-child(5) {
+                    margin-left: 65px;
+                }
+                .rightinner > *:nth-child(13) {
+                    margin-left: 65px;
+                }
+                .rightinner > *:nth-child(n + 5) {
+                    margin-top: -20px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1050px) {
+    .mentors {
+        .divide {
+            flex-direction: column;
+            .left {
+                width: 100% !important;
+                padding: 30px 20px;
+            }
+            .right {
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 630px) {
+    .mentors {
+        .divide {
+            .right {
+                .rightinner > *:nth-child(1) {
+                    margin-left: 65px;
+                }
+                .rightinner > *:nth-child(15),
+                .rightinner > *:nth-child(8) {
+                    margin-left: 65px !important;
+                }
+                .rightinner > *:nth-child(13) {
+                    margin-left: 0 !important;
+                }
+                .rightinner > *:nth-child(5) {
+                    margin-left: 0 !important;
+                }
+                .rightinner > *:nth-child(n + 4) {
+                    margin-top: -20px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 566px) {
+    .mentors {
+        .divide {
+            .right {
+                .rightinner > *:nth-child(13),
+                .rightinner > *:nth-child(7) {
+                    margin-left: 65px !important;
+                }
+                .rightinner > *:nth-child(15),
+                .rightinner > *:nth-child(8) {
+                    margin-left: 0 !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 500px) {
+    .mentors {
+        .divide {
+            .right {
+                .rightinner {
+                    .card {
+                        height: 110px !important;
+                        width: 100px !important;
+                    }
+                }
+
+                .rightinner > *:nth-child(13),
+                .rightinner > *:nth-child(7) {
+                    margin-left: 65px !important;
+                }
+                .rightinner > *:nth-child(15),
+                .rightinner > *:nth-child(8) {
+                    margin-left: 0 !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 424px) {
+    .mentors {
+        .divide {
+            .right {
+                .rightinner > *:nth-child(11),
+                .rightinner > *:nth-child(6),
+                .rightinner > *:nth-child(16) {
+                    margin-left: 65px !important;
+                }
+                .rightinner > *:nth-child(13),
+                .rightinner > *:nth-child(7) {
+                    margin-left: 0 !important;
+                }
+                .rightinner > *:nth-child(n + 3) {
+                    margin-top: -20px;
+                }
+            }
+        }
+    }
+}

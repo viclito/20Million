@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Engineering",
+        "content": "We offer software product engineering tailored for IP-driven needs, software services catering to mature and legacy systems, and facilitate digital transformation for enterprises of varying scales globally.",
+        "content2": "We assist companies in identifying and defining technical solutions for their business challenges, resolving intricate engineering issues, and establishing their own proficient engineering teams."
+    },
+    {
+        "id": 2,
+        "title": "Incubator",
+        "content": "At 20Million, we support innovators and entrepreneurs through every stage of their business journey. This encompasses refining value propositions, enhancing intellectual property and technology plans, creating products and services, structuring enterprises and forming. ",
+        "content2": "The Ventures group and Enterprise Innovation Platform & Ecosystem at 20Million additionally offer engineering services, potential pre-seed and seed funding, and facilitate access to a global network of mentors and subject matter experts."
+    },
+    {
+        "id": 3,
+        "title": "Academy",
+        "content": "20Million's Gurukula or Academy stands as a 'Future-of-Work' solution encompassing an advanced technology platform available as Software-as-a-Service or Platform-as-a-Service. This innovative solution is bolstered by a distinctive mentorship framework and an extensive content library.",
+        "content2": "Gurukula is versatile across domains and industries, adaptable for customization to meet the specific needs of small to large enterprises. Moreover, it is available to individuals seeking continuous skill enhancement, enabling them to stay pertinent and competitive in the marketplace."
+    },
+    {
+        "id": 4,
+        "title": "Venture",
+        "content": "Our primary focus for pre-seed and seed funding revolves around companies integrated into the Tntra ecosystem, utilizing our engineering services and incubator. Additionally, we actively engage in funding rounds alongside our partners, specifically investing in ventures centered on domains such as FinTech, HealthTech, Supply Chain, IoT, and New Economy.",
+        "content2": "   "
+    }
+]

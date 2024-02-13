@@ -1,0 +1,45 @@
+.homeexpertise{
+    .inner{
+        max-width: 1000px;
+        margin: auto;
+        padding: 70px 20px;
+
+        .title{
+            text-align: center;
+            font-size: 30px;
+            font-weight: 800;
+            color: var(--primary-color);
+        }
+
+        .bars{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 40px 10px;
+
+            .bar{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding-bottom: 20px;
+                border-bottom: 1px solid #ccc;
+                &:hover h2{
+                    color: var(--primary-color);
+                }
+
+                h2{
+                    font-size: 20px;
+                    cursor: pointer;
+
+                    
+                }
+                h4{
+                    font-size: 15px;
+                    letter-spacing: .25px;
+                    font-weight: 300;
+                    line-height: 2;
+                }
+            }
+        }
+    }
+}

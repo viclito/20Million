@@ -1,0 +1,196 @@
+.prelaunch {
+    .inner {
+        max-width: 1200px;
+        margin: auto;
+        padding: 60px 30px;
+
+        .title {
+            padding: 60px;
+            text-align: center;
+            font-size: 19px;
+            font-weight: 600;
+        }
+        .divide {
+            display: flex;
+            align-items: center;
+
+            .left {
+                height: 250px;
+                width: 40%;
+                .card {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    .atitle {
+                        padding-top: 50px;
+                        color: var(--primary-color);
+                        font-size: 22px;
+                        font-weight: 700;
+                    }
+                    .content,
+                    .content2 {
+                        font-size: 14px;
+                        line-height: 2;
+                    }
+                }
+            }
+            .right {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                height: 200px;
+
+                position: relative;
+                padding: 50px 0;
+                width: 60%;
+                .img {
+                    position: relative;
+                    width: 90%;
+                    margin: auto;
+                    height: 350px;
+                }
+            }
+        }
+        .container {
+            position: absolute;
+            display: flex;
+            top: 5%;
+            // left: 50px;
+            gap: 5px;
+            .hexagon {
+                position: relative;
+                height: 140px;
+                width: 140px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .shape {
+                    width: 100%;
+                    height: 100%;
+                    clip-path: polygon(
+                        50% 0%,
+                        100% 25%,
+                        100% 75%,
+                        50% 100%,
+                        0% 75%,
+                        0% 25%
+                    );
+                    background-color: rgb(160, 154, 154);
+                    opacity: 0.9;
+                }
+                .shape.active {
+                    background-color: var(--primary-color);
+                }
+                .text {
+                    position: absolute;
+                    color: white;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+            }
+        }
+        .container2 {
+            position: absolute;
+            display: flex;
+            top: 60%;
+            padding-left: 146px;
+            gap: 5px;
+            .hexagon {
+                height: 140px;
+                width: 140px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .shape {
+                    width: 100%;
+                    height: 100%;
+                    clip-path: polygon(
+                        50% 0%,
+                        100% 25%,
+                        100% 75%,
+                        50% 100%,
+                        0% 75%,
+                        0% 25%
+                    );
+                    background-color: rgb(176, 169, 169);
+                    opacity: 0.9;
+                }
+                .shape.active {
+                    background-color: var(--primary-color);
+                }
+                .text {
+                    text-align: center;
+                    position: absolute;
+                    color: white;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+            }
+        }
+        .boxes {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            width: 90%;
+            padding: 40px;
+            .innerboxes {
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+
+                .box {
+                    height: 120px;
+                    width: 120px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 10px;
+                    .innerbox {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 10px;
+                        width: 80px;
+                        height: 80px;
+                        background-color: #e7e4e4;
+                        border-radius: 15px;
+                        .image {
+                            position: relative;
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
+                    p {
+                        font-size: 15px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 900px) {
+    .prelaunch {
+        .inner {
+            padding-bottom: 170px;
+            .divide {
+                flex-direction: column;
+                .left {
+                    width: 100%;
+                }
+                .right {
+                    width: 100%;
+                    height: auto !important;
+                }
+            }
+            .container2 {
+                top: 105%;
+            }
+            .boxes {
+                flex-direction: column;
+            }
+        }
+    }
+}

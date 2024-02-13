@@ -1,0 +1,35 @@
+{
+    "name": "next-login",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev -p 53147 --turbo",
+        "build": "next build",
+        "start": "next start -p 53147",
+        "import": "node src/copytable/import.mjs",
+        "lint": "next lint",
+        "format": "prettier --check .",
+        "format:fix": "prettier --write ."
+    },
+    "dependencies": {
+        "next": "^14.0.4-canary.43",
+        "next-themes": "^0.2.1",
+        "react": "^18",
+        "react-dom": "^18",
+        "sass": "^1.69.5",
+        "swiper": "^11.0.3"
+    },
+    "devDependencies": {
+        "@types/node": "^20.8.10",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "@types/swiper": "^6.0.0",
+        "autoprefixer": "^10",
+        "eslint": "^8",
+        "eslint-config-next": "13.5.4",
+        "eslint-config-prettier": "^9.1.0",
+        "prettier": "^3.1.1",
+        "request": "^2.88.2",
+        "typescript": "^5"
+    }
+}

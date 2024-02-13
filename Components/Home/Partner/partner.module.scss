@@ -1,0 +1,96 @@
+.partner{
+    .inner{
+        max-width: 1200px;
+        margin: auto;
+        padding: 70px 20px;
+        .withus{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .left{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding: 30px 5px;
+                width: 50%;
+
+                .title{
+                    font-size: 24px;
+                    font-weight: 600;
+
+                }
+                .subtitle{
+                    font-size: 16px;
+                    font-weight: 400;
+                    letter-spacing: .25px;
+                    line-height: 2;
+                }
+            }
+            .right{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 50%;
+                img{
+                    border-radius: 15px;
+                    width: 60%;
+                    height: auto;
+                    filter: grayscale(20);
+                    cursor: pointer;
+
+                    &:hover{
+                        filter: grayscale(0);
+                    }
+                }
+            }
+        }
+        .letsbuild{
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+            padding: 40px 10px;
+            .title{
+                text-align: center;
+                font-size: 28px;
+                font-weight: 800;
+                color: var(--primary-color);
+            }
+            .sub{
+                font-size: 16px;
+                letter-spacing: .25px;
+                line-height: 2;
+                text-align: center;
+                max-width: 700px;
+                margin: auto;
+            }
+        }
+    }
+}
+@media(max-width:800px){
+    .partner{
+        .inner{
+            .withus{
+                flex-direction: column;
+                gap: 60px;
+                .left ,.right{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@media(max-width:500px){
+    .partner{
+        .inner{
+            .withus{
+                
+                .right{
+                    img{
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
+}

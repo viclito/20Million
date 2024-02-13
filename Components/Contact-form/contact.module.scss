@@ -1,0 +1,100 @@
+.contactbox {
+    .inner {
+        max-width: 900px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        flex-direction: column;
+        gap: 30px;
+        .para {
+            width: 80%;
+            margin: auto;
+            p {
+                text-align: center;
+                font-size: 13px;
+                line-height: 1.8;
+                letter-spacing: 0.3px;
+            }
+        }
+        .form {
+            width: 100%;
+            padding: 30px 20px;
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                width: 100%;
+                .top,
+                .middle {
+                    display: flex;
+                    gap: 10px;
+                    width: 100%;
+                }
+                .bottom {
+                    width: 100%;
+                    padding: 20px;
+                    border: 1px solid #ccc;
+                }
+                textarea {
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    resize: none;
+                }
+                .input {
+                    position: relative;
+                    width: 50%;
+                    border: 1px solid #ccc;
+                    padding: 20px;
+                    border-radius: 5px;
+                    input,
+                    select {
+                        width: 100%;
+                        border: none;
+                        outline: none;
+                    }
+                    span {
+                        position: absolute;
+                        bottom: -20px;
+                        left: 15px;
+                        font-size: 10px;
+                        color: red;
+                    }
+                }
+                .btn {
+                    display: flex;
+                    justify-content: flex-end;
+                    button {
+                        width: fit-content;
+                        padding: 10px 30px;
+                        background-color: var(--primary-color);
+                        color: white;
+                        outline: none;
+                        border: none;
+                        border-radius: 20px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 600px) {
+    .contactbox {
+        .inner {
+            .form {
+                form {
+                    .top,
+                    .middle {
+                        flex-direction: column;
+                        .input {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

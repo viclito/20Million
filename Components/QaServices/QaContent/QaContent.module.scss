@@ -1,0 +1,80 @@
+.qacontent {
+    
+    .inner {
+        max-width: 1200px;
+        padding: 40px 20px;
+        padding-bottom: 70px;
+        margin: auto;
+
+        .title {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 70px 0;
+        }
+        .divide {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+            width: 100%;
+            .top,
+            .bottom {
+                display: flex;
+                gap: 20px;
+                width: 100%;
+                .hexogen {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 40%;
+                    .shape {
+                        text-align: center;
+                        font-size: 15px;
+                        font-weight: 600;
+                        align-items: center;
+                        justify-content: center;
+                        color: white;
+                        display: flex;
+                        height: 140px;
+                        width: 140px;
+                        clip-path: polygon(
+                            50% 0%,
+                            100% 25%,
+                            100% 75%,
+                            50% 100%,
+                            0% 75%,
+                            0% 25%
+                        );
+                        background-color: var(--primary-color);
+                    }
+                }
+                .content {
+                    padding: 20px;
+                    width: 60%;
+                    font-size: 16px;
+                    line-height: 1.8;
+                }
+            }
+            .bottom {
+                flex-direction: row-reverse;
+            }
+        }
+    }
+}
+@media (max-width: 730px) {
+    .qacontent {
+        .inner {
+            .divide {
+                .top,
+                .bottom {
+                    flex-direction: column;
+
+                    .hexogen,
+                    .content {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "class": "card person1",
+        "person1": "I am a Developer"
+    },
+    {
+        "id": 2,
+        "class": "card person",
+        "image": "/image/content.png",
+        "function": "setPerson1"
+    },
+    {
+        "id": 3,
+        "class": "card person1 person2",
+        "person2": "prithiv",
+        "person1": "michel",
+        "person4": "IT support"
+    },
+    {
+        "id": 4,
+        "class": "card person",
+        "image": "/image/content.png",
+        "function": "setPerson2"
+    },
+    {
+        "id": 5,
+        "class": "card person",
+        "person1": "Linked in",
+        "person3": "Designer",
+        "person2": "prithiv"
+    },
+    {
+        "id": 6,
+        "class": "card person",
+        "image": "/image/content.png",
+        "function": "setPerson3"
+    },
+    {
+        "id": 7,
+        "class": "card person",
+        "person3": "A Software Developer",
+        "person4": "prithiv",
+        "person2": "A frontend Developer"
+    },
+    {
+        "id": 8,
+        "class": "card person",
+        "image": "/image/content.png",
+        "function": "setPerson4"
+    },
+    {
+        "id": 9,
+        "class": "card person",
+        "person5": "linked in"
+    },
+    {
+        "id": 10,
+        "class": "card person",
+        "image": "/image/content.png",
+        "function": "setPerson5"
+    },
+    {
+        "id": 11,
+        "class": "card person",
+        "person4": "linked in Profile",
+        "person5": "Naveen",
+        "person6": "vikram",
+        "person7": "Ram Kumar",
+        "person8": "Linked in"
+    },
+    {
+        "id": 12,
+        "class": "card person",
+        "image": "/image/content.png",
+        "function": "setPerson6"
+    },
+    {
+        "id": 13,
+        "class": "card person1 person2",
+        "person5": "prithiv",
+        "person6": "Backend Developer",
+        "person7": "linked in"
+    },
+    {
+        "id": 14,
+        "class": "card person",
+        "image": "/image/content.png",
+        "function": "setPerson7"
+    },
+    {
+        "id": 15,
+        "class": "card person",
+        "person6": "Linked in",
+        "person7": "Software engineer",
+        "person8": "ezil raj"
+    },
+    {
+        "id": 16,
+        "class": "card person",
+        "image": "/image/content.png",
+        "function": "setPerson8"
+    }
+]
